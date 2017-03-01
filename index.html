@@ -1,85 +1,232 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>LT Comp Challenge 3</title>
-		<link rel="stylesheet" href="styles/normalize.css">
-		<link rel="stylesheet" href="styles/style.css">
-		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,500,700|Alegreya+Sans:400,400i,500,700" rel="stylesheet">
-	</head>
-	<body>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LT Comp Challenge 3</title>
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,500,700|Alegreya+Sans:400,400i,500,700" rel="stylesheet">
+</head>
+
+<body>
+	<section class="page-wrapper">
 		<nav class="collapse-nav">
 			<section class="profile-pic-block">
-				<div class="profile-pic"></div>
+				<img src="images/fill_murray_80x80.jpg" alt="Newton Barley's profile picture" class="profile-pic">
 				<h2 class="profile-name">Newton Barley</h2>
 			</section>
-			<section class="first side-nav">
+			<section class="side-nav">
 				<h4 class="regular-case">Main</h4>
-				<div>
+				<div class="side-nav--label">
 					<div class="medium-icon"></div>
-					<h4>Home</h4>
+					<h4>home</h4>
 				</div>
-				<div>
+				<div class="side-nav--label">
 					<div class="medium-icon"></div>
-					<h4>Jobs</h4>
+					<h4>jobs</h4>
 				</div>
-				<div>
+				<div class="side-nav--label">
 					<div class="medium-icon"></div>
-					<h4>Resumes</h4>
+					<h4>resumes</h4>
 				</div>
-				<div>
+				<div class="side-nav--label">
 					<div class="medium-icon"></div>
-					<h4>Tasks</h4>
+					<h4>tasks</h4>
 				</div>
-				<div>
+				<div class="side-nav--label">
 					<div class="medium-icon"></div>
-					<h4>Calendar</h4>
+					<h4>calendar</h4>
 				</div>
 			</section>
-			<section class="middle side-nav">
+			<section class="side-nav">
 				<h4 class="regular-case">Admin</h4>
-				<div>
+				<div class="side-nav--label">
 					<div class="medium-icon"></div>
-					<h4>Users</h4>
+					<h4>users</h4>
 				</div>
-				<div>
+				<div class="side-nav--label">
 					<div class="medium-icon"></div>
-					<h4>Locations</h4>
+					<h4>locations</h4>
 				</div>
-				<div>
+				<div class="side-nav--label">
 					<div class="medium-icon"></div>
-					<h4>Workflows</h4>
+					<h4>workflows</h4>
 				</div>
-				<div>
+				<div class="side-nav--label">
 					<div class="medium-icon"></div>
-					<h4>Job boards</h4>
+					<h4>job boards</h4>
 				</div>
-				<div>
+				<div class="side-nav--label">
 					<div class="medium-icon"></div>
-					<h4>Social</h4>
+					<h4>social</h4>
 				</div>
 			</section>
 			<section class="end side-nav">
 				<h4 class="regular-case">Categories</h4>
-				<div>
-					<div class="medium-icon square"></div>
-					<h4>Administrative</h4>
+				<div class="side-nav--label">
+					<div class="check-one"></div>
+					<h4>administrative</h4>
 				</div>
-				<div>
-					<div class="medium-icon square"></div>
-					<h4>Design</h4>
+				<div class="side-nav--label">
+					<div class="check-two"></div>
+					<h4>design</h4>
 				</div>
-				<div>
-					<div class="medium-icon square"></div>
-					<h4>Executive</h4>
+				<div class="side-nav--label">
+					<div class="check-three"></div>
+					<h4>executive</h4>
 				</div>
-				<div>
-					<div class="medium-icon square"></div>
-					<h4>Human Resources</h4>
+				<div class="side-nav--label">
+					<div class="check-four"></div>
+					<h4>human resources</h4>
 				</div>
 			</section>
 		</nav>
-		
+		<main>
+			<nav class="quick-nav">
+				<div class="large-icon quick-nav--icon"></div>
+				<input class="search" placeholder="search for a job, task or resume">
+				<div class="large-icon quick-nav--icon"></div>
+				<div class="large-icon quick-nav--icon"></div>
+				<div class="large-icon quick-nav--icon"></div>
+			</nav>
+			<header class="main-header">
+				<section class="job-title">
+					<h1>Customer Service Representative</h1>
+					<div class="drop-pin">
+						<div class="small-icon"></div>
+						<p>San Francisco, CA</p>
+						<div class="tiny-icon"></div>
+						<a href="#" class="preview">Preview this post</a>
+					</div>
+					<section class="edit-links">
+						<button class="open-button">open</button>
+						<div class="medium-icon circle-icon"></div>
+						<div class="medium-icon circle-icon"></div>
+						<div class="medium-icon circle-icon"></div>
+					</section>
+				</section>
+				<ul class="tab-nav">
+					<li><a href="#" class="page-tab show-child">Summary</a>
+						<div class="small-icon tab-collapse"></div>
+					</li>
+					<li><a href="#" class="page-tab">Applicants</a></li>
+					<li><a href="#" class="page-tab">Job board</a></li>
+					<li><a href="#" class="page-tab">Interviews</a></li>
+					<li><a href="#" class="page-tab">Activity</a></li>
+					<li><a href="#" class="page-tab">Broadcast</a></li>
+					<li><a href="#" class="page-tab">Notifications</a></li>
+				</ul>
+			</header>
+			<aside class="graphs">
+				<figure class="percentage-graphs">
+					<div class="percentage">
+						<p class="percentage-number">3,154</p>
+						<p class="percentage-label">applicants</p>
+					</div>
+					<div class="percentage">
+						<p class="percentage-number">1,546</p>
+						<p class="percentage-label">interviews</p>
+					</div>
+					<div class="percentage">
+						<p class="percentage-number">912</p>
+						<p class="percentage-label">forwards</p>
+					</div>
+					<figcaption class="percentage-graph-label">totals
+						<div class="tiny-icon"></div>out of 5,2333 views</figcaption>
+				</figure>
+				<figure class="bar-graph-fig">
+					<img src="images/bar-graph.png" alt="graph of applicant visits per day" class="bar-graph" height="200px" width="200px">
+					<figcaption class="bar-graph-label">Applicants/Day
+					</figcaption>
+				</figure>
+				<div class="page-break">
+					<hr>
+					<div class="hr-break small-icon"></div>
+					<hr>
+				</div>
+			</aside>
+			<section class="bottom-detail">
+				<table>
+					<tr class="table-head">
+						<th class="job-label--heading">Job Description</th>
+						<th class="job-detail--heading">
+							<button class="table-button"><div class="small-icon"></div>edit
+						</button></th>
+					</tr>
+					<tr>
+						<td class="job-label">position title</td>
+						<td class="job-detail">Customer Service Representative</td>
+					</tr>
+					<tr>
+						<td class="job-label">location</td>
+						<td class="job-detail">San Francisco, CA</td>
+					</tr>
+					<tr>
+						<td class="job-label">employment type</td>
+						<td class="job-detail">full-time</td>
+					</tr>
+					<tr>
+						<td class="job-label">experience</td>
+						<td class="job-detail">Mid-level</td>
+					</tr>
+					<tr>
+						<td class="job-label">status</td>
+						<td class="job-detail">Open</td>
+					</tr>
+					<tr>
+						<td class="job-label">description</td>
+						<td class="job-detail">I've always been deeply passionate about nature. Perhaps you remember Neuterfest? I'll never forget your wedding. Of course. The "Bob Loblaw Law Blog." Wow. You, sir, are a mouthful! Michael was concerned that he was caught in a lie about his family.
+							I mean, it's one banana, Michael. What could it cost, ten dollars? </td>
+					</tr>
+					<tr>
+						<td class="job-label">hiring lead</td>
+						<td class="job-detail"><img src="images/fill_murray_80x80.jpg" alt="hiring lead headshot" class="medium-icon circle-icon">Tom Tizzy</td>
+					</tr>
+					<tr>
+						<td class="job-label">Approved Salary</td>
+						<td class="job-detail">$58,000</td>
+					</tr>
+				</table>
+				<nav class="social-nav">
+					<section class="social-networks">
+						<div class="social-network facebook">
+							<div class="social large-icon"></div>
+							<p class="social-network--label">Post to Facebook</p>
+						</div>
+						<div class="social-network twitter">
+							<div class="social large-icon"></div>
+							<p class="social-network--label">Tweet this job</p>
+						</div>
+						<div class="social-network linkedin">
+							<div class="social large-icon"></div>
+							<p class="social-network--label">Post to Linkedin</p>
+					</section>
+					<section class="contact-option">
+						<div class="medium-icon contact-option--image"></div>
+						<h2 class="contact-option--title">Link to this job</h2>
+						<p class="contact-option--text">I've always been deeply passionate about nature. Perhaps you remember Neuterfest? </p>
+						<p class="copy-text">http://bluthipsum.com/</p>
+						<button class="copy-button"></button>
+					</section>
+					<section class="contact-option">
+						<div class="medium-icon contact-option--image"></div>
+						<h2 class="contact-option--title">Use the Button Widget</h2>
+						<p class="contact-option--text">I've always been deeply passionate about nature. Perhaps you remember Neuterfest?</p>
+						<p class="copy-text">http://bluthipsum.com/</p>
+						<button class="copy-button"></button>
+					</section>
+					<section class="contact-option">
+						<div class="medium-icon contact-option--image"></div>
+						<h2 class="contact-option--title">Upload Resume by Email</h2>
+						<p class="contact-option--text">I've always been deeply passionate about nature. Perhaps you remember Neuterfest?</p>
+						<input type="text" class="copy-text copy-text--input" placeholder="ipsum@loremipsum.com">
+					</section>
+				</nav>
+			</section>
+		</main>
+	</section>
+</body>
 
-	</body>
 </html>
